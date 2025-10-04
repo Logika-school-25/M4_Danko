@@ -36,12 +36,12 @@ body{
 .answer{
     border: 1px solid black;
     border-radius: 5px;
-    width: 65px; height: 65px;
+    width: 100px; height: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
     user-select: none;
-    margin: .5em;
+    margin: .3em;
     cursor: pointer;
 }
 
@@ -63,4 +63,41 @@ body{
 
 .start-btn:hover{
     background: #eaeaea;
+}
+
+.limit-btn {
+    padding: 10px 20px; 
+    font-size: 1.2em; 
+    margin: 5px; 
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+
+.limit-btn:hover {
+    background-color: #141abd8d;
+}
+
+
+.limit-btn[style*="background-color: rgb(173, 216, 230)"] { 
+    border-color: #007bff; 
+    font-weight: bold;
+}
+
+.start-btn {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    /* background-color: #28a745;
+    color: white; */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+.start-btn:hover {
+    background-color: #218838;
 }
